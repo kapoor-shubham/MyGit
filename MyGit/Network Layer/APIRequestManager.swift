@@ -44,15 +44,15 @@ class APIRequestManager: NSObject {
         
         let session = URLSession.shared
         session.dataTask(with: request) { (data, response, error) in
-            if let data = data {
+            if let responseData = data {
                 do {
                     let decoder = JSONDecoder()
-                    let dataModel = try decoder.decode(modelType, from: data)
+                    let dataModel = try decoder.decode(modelType, from: responseData)
                     responseObj(dataModel, true, nil)
 //                    let json = try JSONSerialization.jsonObject(with: data, options: [])
 //                    responseObj(json, true, nil)
                 } catch {
-                    responseObj(nil, false, APIError.parsingError)
+                    responseObj(nil, false, error.localizedDescription as? Error ?? APIError.parsingError)
                 }
             }
         }.resume()

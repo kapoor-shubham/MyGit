@@ -8,4 +8,4 @@
 
 import Foundation
 
-let baseURL = URL(string: "https://api.github.com/users/JakeWharton/repos")
+let baseURL = URL(string: "https://api.github.com/users/JakeWharton/repos?page=1&per_page=15")

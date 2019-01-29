@@ -16,6 +16,8 @@
 		5A4EEA55220043C90047A7BC /* APIErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEA51220043C80047A7BC /* APIErrors.swift */; };
 		5A4EEA56220043C90047A7BC /* Rechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEA52220043C90047A7BC /* Rechability.swift */; };
 		5A4EEA57220043C90047A7BC /* UrlList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEA53220043C90047A7BC /* UrlList.swift */; };
+		5A4EEA5A220045770047A7BC /* GitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEA59220045770047A7BC /* GitModel.swift */; };
+		5A4EEA5C220069DB0047A7BC /* GitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EEA5B220069DB0047A7BC /* GitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5A4EEA51220043C80047A7BC /* APIErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIErrors.swift; sourceTree = "<group>"; };
 		5A4EEA52220043C90047A7BC /* Rechability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rechability.swift; sourceTree = "<group>"; };
 		5A4EEA53220043C90047A7BC /* UrlList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlList.swift; sourceTree = "<group>"; };
+		5A4EEA59220045770047A7BC /* GitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitModel.swift; sourceTree = "<group>"; };
+		5A4EEA5B220069DB0047A7BC /* GitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			children = (
 				5A4EEA3E220042EE0047A7BC /* AppDelegate.swift */,
 				5A4EEA40220042EE0047A7BC /* ViewController.swift */,
+				5A4EEA5B220069DB0047A7BC /* GitTableViewCell.swift */,
+				5A4EEA59220045770047A7BC /* GitModel.swift */,
 				5A4EEA58220044490047A7BC /* Network Layer */,
 				5A4EEA42220042EE0047A7BC /* Main.storyboard */,
 				5A4EEA45220042F10047A7BC /* Assets.xcassets */,
@@ -155,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4EEA5C220069DB0047A7BC /* GitTableViewCell.swift in Sources */,
+				5A4EEA5A220045770047A7BC /* GitModel.swift in Sources */,
 				5A4EEA54220043C90047A7BC /* APIRequestManager.swift in Sources */,
 				5A4EEA57220043C90047A7BC /* UrlList.swift in Sources */,
 				5A4EEA56220043C90047A7BC /* Rechability.swift in Sources */,
